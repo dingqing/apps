@@ -1,5 +1,5 @@
 # apps
-写些感兴趣的小应用
+写些感兴趣的小应用。包括算法、shell脚本工具、小应用
 
 参考：[sth.writed.4.interest](https://github.com/meolu/sth.writed.4.interest)
 
