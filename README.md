@@ -3,11 +3,16 @@
 
 参考：[sth.writed.4.interest](https://github.com/meolu/sth.writed.4.interest)
 
+- [ ] [微信提醒](./wx-reminder.py)
+    - 需求产生：生活中遇到需要将符合条件的网络服务结果实现定制推送的情况。使用脚本定时请求网络服务，
+    - 思路：使用脚本定时请求，结果符合则进行推送
+    - 工具/库：
+        - selenium（如果需要自动登录）
+        - 定时任务BlockingScheduler
+        - [server酱](http://sc.ftqq.com)（第三方推送服务）
 - [x] [Lua练习](./lua)
 - [ ] [数独](./sudoku)
     - 支持猜测一次（在猜测中猜测，这本来就是个有疑问的问题），能解到大部分sudoku.name Hard++的题
-- [ ] [自动登录脚本](./auto-login)
-    - 快速登录众多机器
 - [ ] [日志分析脚本](./awk-log)
     - 涉及批量机器下载如日志文件做分析、错误分析、数量统计时，awk跟expect强强组合
 - [ ] [朴素贝叶斯-拼写纠正](./naive-bayesian)
