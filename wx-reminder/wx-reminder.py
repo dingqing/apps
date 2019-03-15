@@ -9,7 +9,7 @@ class My_job():
 
 	def get_content(self):
 		server_url = 'https://wxis.91160.com/wxis/sch/main.do?r=1552573769266&unit_id=21&dep_id=1738&doc_id=14700'
-	    # 医院发布号源规则是提前一周，每天有可能抢到的号日期为从明天开始的连续8天，
+	    #
 		try:
 	    	# 为尽量抢到早号，又不会造成请求太多，决定请求前5页
 
@@ -26,7 +26,7 @@ class My_job():
 		except Exception as e:
 			raise e
 	def do_push(self, msg_content):
-		push_url = 'SCU46410T5de8d3d811345aa43a3345c7ccd5e53c5c8a2f7ebc506'
+		push_url = 'xxx'
         reponse = requests.post(server_url, data={"text":'抢到号了', "desp":msg_content})
         if reponse.json()['errno'] == 0:
         	# log: 发送成功
