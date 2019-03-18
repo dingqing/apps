@@ -8,7 +8,7 @@ class My_job():
 		self.arg = arg
 
 	def get_content(self):
-		server_url = 'https://wxis.91160.com/wxis/sch/main.do?r=1552573769266&unit_id=21&dep_id=1738&doc_id=14700'
+		server_url = 'https://wxis.91160.com/wxis/doc/main.do?r=1552573769266&unit_id=21&dep_id=1738&doc_id=14700'
 	    #
 		try:
 	    	# 为尽量抢到早号，又不会造成请求太多，决定请求前5页
