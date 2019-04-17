@@ -9,6 +9,7 @@
     - 支持php扩展、php、python
 
 ### 运维
+- [x] [git、svn发布脚本](./release-tools/README.md)
 - [ ] 日志分析脚本
     - 涉及批量机器下载如日志文件做分析、错误分析、数量统计时，awk跟expect强强组合
 - [ ] 切换hosts
