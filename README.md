@@ -8,6 +8,8 @@
 - [ ] ip2city
     - 支持php扩展、php、python
 
+### 系统设计
+- [ ] 实现一个消息队列
 ### 运维
 - [x] [git、svn发布脚本](./release-tools/README.md)
 - [ ] 日志分析脚本
