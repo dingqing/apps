@@ -10,6 +10,7 @@
 
 ### 系统设计
 - [ ] 实现一个消息队列
+
 ### 运维
 - [x] [git、svn发布脚本](./release-tools/README.md)
 - [ ] 日志分析脚本
@@ -20,12 +21,9 @@
     - 实现把svn分支代码同步至测试环境的一小工具，支持web页面更新，命令行更新
     
 ### 算法
-- [ ] 数独
-    - 支持猜测一次（在猜测中猜测，这本来就是个有疑问的问题），能解到大部分sudoku.name Hard++的题
-- [ ] 朴素贝叶斯-拼写纠正
-    - PHP做一些分类算法，像拼写纠正这么小的事情，只是效果不是我们终极线上应用那么精准，需要更多的规则和尝试
-- [ ] 有趣的KMP
-    - 之前没发现KMP除了在查找之外，赌博方面也有突出贡献，结果让我大吃一斤
-    
+- [x] [电梯调度](./algorithm/elevator.php)
+- [x] [汉诺塔](./algorithm/hanoi.php)
+- [x] [年会红包抽奖](./algorithm/lottery.php)
+- [x] [约瑟夫环](./algorithm/yuesefu.php)
     
 参考：[sth.writed.4.interest](https://github.com/meolu/sth.writed.4.interest)
