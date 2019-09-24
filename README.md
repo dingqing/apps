@@ -20,10 +20,6 @@
 - [ ] 更新代码至测试环境小工具
     - 实现把svn分支代码同步至测试环境的一小工具，支持web页面更新，命令行更新
     
-### 算法
-- [x] [电梯调度](./algorithm/elevator.php)
-- [x] [汉诺塔](./algorithm/hanoi.php)
-- [x] [年会红包抽奖](./algorithm/lottery.php)
-- [x] [约瑟夫环](./algorithm/yuesefu.php)
+### [算法](./algorithm)
     
 参考：[sth.writed.4.interest](https://github.com/meolu/sth.writed.4.interest)
